@@ -1,0 +1,228 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+  }
+
+.App {
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+    min-height: 100vh;  
+    position: relative;
+}
+
+.header {
+    text-align: center;
+
+}
+
+.calculator-wrapper {
+    margin: 0 auto;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    border: 10px solid #000000d3;
+    width: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.display-container {
+    /* height: 80px; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around; */
+    padding: .75rem;
+    word-wrap: break-word;
+    word-break: break-all;
+    background-color: black;
+}
+
+.calc-numbers {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 40px;
+    font-family: 'Black Ops One', cursive;
+    padding: 0 10px;
+    text-align: right;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(60px, auto);
+    grid-gap: 5px;
+    background-color: black;
+}
+
+.container button:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+button {
+    font-size: 20px;
+    padding: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    width: 100%;
+}
+
+.footer {
+    text-align: center;
+    bottom: 0%;
+    position: absolute;
+    width: 100%;
+}
+
+.mc {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: lime;
+}
+
+.mr {
+    grid-column: 2/3;
+    grid-row: 1/2; 
+    background-color: lime;
+}
+
+.ms {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-color: lime;
+}
+
+.m-plus {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    background-color: lime;
+}
+
+.m-minus {
+    grid-column: 5/6;
+    grid-row: 1/2;
+    background-color: lime;
+}
+
+.ac {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    background-color: tomato;
+}
+
+.c {
+    background-color: tomato;
+}
+
+.plus-minus {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    background-color: lightgrey;
+}
+
+.square-root {
+    grid-column: 5/6;
+    grid-row: 2/3;
+    background-color: lightgrey;
+}
+
+.divide {
+    grid-column: 4/5;
+    grid-row: 3/4;
+    background-color: lightgrey;
+}
+
+.percent {
+    grid-column: 5/6;
+    grid-row: 3/4;
+    background-color: lightgrey;
+}
+
+.multiply {
+    grid-column: 4/5;
+    grid-row: 4/5;
+    background-color: lightgrey;
+}
+
+.subtract {
+    grid-column: 4/5;
+    grid-row: 6/7;
+    background-color: lightgrey;
+}
+
+.equal {
+    grid-column: 5/6;
+    grid-row: 4/7;
+    background-color: orange;
+}
+
+.decimal {
+    grid-column: 3/4;
+    grid-row: 6/7;
+    background-color: #000000c0;
+    color: white;
+}
+
+.add {
+    grid-column: 4/5;
+    grid-row: 5/6;
+    background-color: lightgrey;
+}
+
+.zero {
+    grid-column: 1/3;
+    grid-row: 6/7;
+    background-color: #000000c0;
+    color: white;
+}
+
+.one {
+    background-color: #000000c0;
+    color: white;
+}
+
+.two {
+    background-color: #000000c0;
+    color: white;
+}
+
+.three {
+    background-color: #000000c0;
+    color: white;
+}
+
+.four {
+    background-color: #000000c0;
+    color: white;
+}
+
+.five {
+    background-color: #000000c0;
+    color: white;
+}
+
+.six {
+    background-color: #000000c0;
+    color: white;
+}
+
+.seven {
+    background-color: #000000c0;
+    color: white;
+}
+
+.eight {
+    background-color: #000000c0;
+    color: white;
+}
+
+.nine {
+    background-color: #000000c0;
+    color: white;
+}
